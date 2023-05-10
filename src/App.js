@@ -11,30 +11,35 @@ import sistema from './img/sistema.png'
 
 import './App.css';
 
+
 function App() {
   return (
     <>
       <header class="container-fluid parallaHeader fade ">
         <div class="container-fluid menu">
           <nav class="container">
-            <div>
-              <img class="img-fluid" src={logo} alt=''/>
+          <div className='row justify-content-between pt-4'>
+
+            <div className='nav col-2' >
+              <img className="img-fluid" src={logo} alt=''/>
             </div>
-            <ul class="nav justify-content-end menu">
-              <li class="nav-item">
-                <a class="nav-link" href="#s1">Tecnología OSL</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#s2">Servicios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#s3">Contáctanos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled"  href="#s">Ingresa</a>
-              </li>
-            </ul>
-          
+            <div className='col-6'>
+              <ul className="nav mt-3 menu">
+                <li className="nav-item">
+                  <a className="nav-link" href="#s1">Tecnología OSL</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#s2">Servicios</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#s3">Contáctanos</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link disabled"  href="#s">Ingresa</a>
+                </li>
+              </ul>
+            </div>
+            </div>
           </nav>
         </div>
         <div class="row hero">
