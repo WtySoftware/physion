@@ -1,38 +1,138 @@
-.App {
-  text-align: center;
+header{
+	color: white;
+}
+ul > li{
+	list-style-type: none;
+}
+ul.menu > li > a{
+	color: white;
+}
+ul.menu > li > a:hover{
+	color: black;
+}
+hr {
+    width: 20%;
+    margin: 0rem auto 1rem;
+    opacity: 1;
+}
+.hero > div > h1{
+	font-weight: 700;
+}
+.hero > div > p{
+	font-weight: 600;
+}
+.bluetitle{
+	color: #4A8BED;
+}
+.lightFont{
+	font-weight: 300;
+}
+.dosimetria{
+	height: 500px;
+}
+.space{
+	padding: 0 20px;
+}
+.parallaHeader{
+	height: 80vh;
+	width: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+	background-position:top;
+	background-image: url(img/parallax1.png);
+
+}
+.sis{
+	height: 450px;
+}
+.parallaxBlue{
+	height: 350px;
+	width: 100%;
+	font-size: 18px;
+	color: white;
+	background-color: #2F7AEB;
+}
+.parallaxFooter > .row{
+ height: 550px;
+}
+.btn-transparent{
+	color: white;
+	background: transparent;
+	border-radius: 25px;
+	border: white 3px solid;
+	padding: 7px 20px;
+	margin: 5px;
+}
+.parallaxFooter{
+	height: 500px;
+	width: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size: cover;
+	background-image: url(img/parallaxFooter.png);
+	color: white;
+}
+.hero{
+	height: 60vh;
+}
+.pie{
+	font-size: 10px;
+	color: white;
+	background-color: black;
+	width: 100%;
+	height: 80px;
+}
+.pie .derechos{
+	padding-top: 10px;
+	margin: 0;
+}
+.wavesIzq{
+	position: absolute;
+	left: 0;
+
+}
+.wavesDer{
+	position: absolute;
+	right: 0;
+}
+.ancho{
+	position: relative;
+	top: -50px;
+	width:100%;
+}
+.servi{
+	margin: 75px 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.titleFooter{
+	font-weight: 600;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.parallaxFooter div p{
+	font-weight: 600;
+}
+.fade{
+	opacity: 1;
+	animation: fadeIn;
+	animation-duration: 3s;
+	 animation-fill-mode: forwards;
+}
+@keyframes fadeIn {
+  0%{
+   opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
+.blueLine{
+	margin: 0 auto;
+	display: block;
+	width: 50px;
+	height: 5px;
+	background-color: #2F7AEB;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
