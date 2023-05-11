@@ -7,8 +7,13 @@ import two from './img/two.png'
 import three from './img/three.png'
 import four from './img/four.png'
 import five from './img/five.png'
-import sistema from './img/sistema.png'
 
+import ReactWhatsapp from 'react-whatsapp'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import {faInstagram} from '@fortawesome/free-brands-svg-icons'
+import {faWhatsapp} from '@fortawesome/free-brands-svg-icons'
 import './App.css';
 
 
@@ -16,32 +21,35 @@ function App() {
   return (
     <>
       <header class="container-fluid parallaHeader fade ">
-        <div class="container-fluid menu">
-          <nav class="container">
-          <div className='row justify-content-between pt-4'>
 
-            <div className='nav col-2' >
-              <img className="img-fluid" src={logo} alt=''/>
-            </div>
-            <div className='col-6'>
-              <ul className="nav mt-3 menu">
-                <li className="nav-item">
-                  <a className="nav-link" href="#s1">Tecnología OSL</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#s2">Servicios</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#s3">Contáctanos</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link disabled"  href="#s">Ingresa</a>
-                </li>
-              </ul>
-            </div>
-            </div>
-          </nav>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#a"><img className="img-fluid" src={logo} alt=''/></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav menu">
+              <li className="nav-item">
+                <a className="nav-link" href="#s1">Tecnología OSL</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#s2">Servicios</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#s3">Contáctanos</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link disabled"  href="#s">Ingresa</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
+
+
+
+
         <div class="row hero">
           <div class="col-7 mx-auto text-center align-self-center">
             <h1>PHYSION TECNOLOGÍA NUCLEAR</h1>
@@ -147,8 +155,8 @@ function App() {
 
       <div class="container-fluid fade">
         <div class="row sis">
-          <div class="col-6 p-0">
-            <img class="img-fluid" src={sistema} alt=''/>
+          <div class="col-6 p-0 bgSis">
+            
           </div>
           <div class="col-6 text-center align-self-center">
             <h5>Próximamente</h5>
@@ -167,15 +175,44 @@ function App() {
             <p>Si tiene alguna duda o pregunta, no dude en contactarnos. <br/>
             Estamos aquí para ayudarlo y asegurarnos de que tenga una asistencia completa. </p>
             <p>Escríbenos por:</p>
-            <button class="btn-transparent">Whatsapp</button>
-            <button class="btn-transparent">Correo</button>
+            <ReactWhatsapp class="btn-transparent" number="+58-412-9089286" message="¡Buenos Dias! Prueba del Boton WhatsApp" >WhatsApp <FontAwesomeIcon icon={faWhatsapp} size="1x"/></ReactWhatsapp>
+            <br />  
+          
+            <div className='row mt-5'>
+              <div className='col-4'>
+                <FontAwesomeIcon icon={faPhone} size="2x"/> <br />
+                <span> <b>  02122348708 / 02122397680</b></span>
+              </div>
+              <div className='col-4'>
+              <FontAwesomeIcon icon={faInstagram} size="2x"/> <br />
+                <a className='insta' href='https://www.instagram.com/physiontecnologianuclear/'> <b> @physiontecnologianuclear</b></a>
+              </div>
+              <div className='col-4'>
+               <FontAwesomeIcon icon={faEnvelope} size="2x"/> <br />
+                <span> <b> physiontec@gmail.com </b></span> 
+              </div>
+            </div>
+           
+            
+            <p className='mt-3'>Av. Rómulo Gallegos, Caracas, Miranda, Venezuela</p>
+
+
           </div>
         </div>
       </div>
 
       <footer class="container-fluid text-center pie fade">
-        <p class="derechos">Todos los derechos reservados a <b>PHYSION TECNOLOGIA NUCLEAR C.A.</b></p>
-        <p>Web Desarrollada por <b>Web Technology Software</b></p>
+        <div className='row justify-content-between'>
+          <div class="col-4">
+            <p class="derechos">Todos los derechos reservados a <b>PHYSION TECNOLOGIA NUCLEAR C.A.</b></p>
+          </div>
+          <div class="col-4">
+          <p class="derechos">Web Desarrollada por <b>Web Technology Software</b></p>
+          </div>
+        </div>
+
+        
+       
       </footer>
 
     </>
