@@ -22,7 +22,7 @@ function App() {
     <>
       <header class="container-fluid parallaHeader fade ">
 
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg ">
         <div class="container">
           <a class="navbar-brand" href="#a"><img className="img-fluid" src={logo} alt=''/></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,7 +51,7 @@ function App() {
 
 
         <div class="row hero">
-          <div class="col-7 mx-auto text-center align-self-center">
+          <div class="col-lg-7 col-md-10 col-sm-12 col-sx-12 mx-auto text-center align-self-center">
             <h1>PHYSION TECNOLOGÍA NUCLEAR</h1>
             <hr/>
             <p>Somos una empresa dedicada a la prestación de servicios y soluciones en protección radiológica, especializados en la  medición de la dosis equivalente causadas por radiaciones ionizantes (rayos X y materiales radiactivos) que pueden ser recibidas por  los trabajadores ocupacionalmente expuestos, ambiente y público,  en sectores como salud e industria. Así mismo somos especialistas en higiene ocupacional y medición de  radiaciones no ionizantes, específicamente en mediciones de campo electromagnético</p>
@@ -71,12 +71,12 @@ function App() {
           </div>
         </div>
         <div class="row text-center mt-5">
-          <div class="col-6">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
             <h2>Dosimetría individual</h2>
             <span class="blueLine"></span>
             <p class="space">Englobamos dentro de este término la estimación de la dosis equivalente, profunda y superficial, que recibe un trabajador profesionalmente expuesto, obtenida mediante la lectura del dosímetro asignado y llevado por la persona durante toda su jornada laboral. El servicio ofrecido es mensual y los dosímetros asignados están debidamente etiquetados incluyendo tanto los datos del usuario como un código de barras único que permite la trazabilidad del mismo.</p>
           </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <h2>Ventajas de la dosímetria OSL</h2>
             <span class="blueLine"></span>
             <p class="space">Mayor sensibilidad que los sistemas TLD y el de película. <br/>
@@ -86,7 +86,7 @@ function App() {
         </div>
       </div>
       <div class="ancho fade">
-          <img class="wavesIzq" src={lateralIzq} alt=''/>
+          <img class=" wavesIzq" src={lateralIzq} alt=''/>
           <img class="wavesDer" src={lateralDer} alt=''/>
       </div>
 
@@ -94,19 +94,19 @@ function App() {
         <h1 class="servi">Otros Servicios</h1>
         <div class="row ">
 
-          <div class="col-4 px-3">
+          <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 px-3">
             <img class="img-fluid" src={one} alt=''/>
             <h3>Evaluación de Campo Electromagnético</h3>
             <span class="blueLine"></span>
             <p>El personal de Physion tecnología nuclear C.A se encuentra certificado como Oficial de Seguridad en Radiaciones No Ionizantes y disponemos de equipos NARDA de última generación para realizar evaluaciones de campo electromagnético y velar por el cumplimiento de la NVC2238 y la providencia 581 de CONATEL de obligatorio cumplimiento.</p>
           </div>
-          <div class="col-4 px-3">
+          <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 px-3">
             <img class="img-fluid" src={two} alt=''/>
             <h3 >Higiene Ocupacional</h3>
             <span class="blueLine"></span>
             <p> Physion tecnología nuclear C.A., cuenta con múltiples equipos de última generación para realizar evaluaciones de riesgos ocupacionales, entre los cuáles podemos destacar: ruido,iluminación, temperatura, polvos, vapores orgánicos, etc...</p>
           </div>
-          <div class="col-4 px-3">
+          <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 px-3">
             <img class="img-fluid" src={three} alt=''/>
             <h3>Cálculo de Blindaje</h3>
             <span class="blueLine"></span>
@@ -114,13 +114,13 @@ function App() {
           </div>
         </div>
         <div class="row">
-          <div class="col-4 offset-2 px-3">
+          <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 px-3">
             <img class="img-fluid" src={four} alt=''/>
             <h3>Levantamiento Radiométrico</h3>
             <span class="blueLine"></span>
             <p>Utilizando equipos de última generación, estamos en la capacidad de realizar todas las mediciones sobre las barreras a fin de garantizar un blindaje adecuado de los ambientes de trabajo. El objetivo es evaluar los niveles de exposición ocupacionales y para el público, con el objeto de verificar el cumplimiento de las normas que rigen la materia.</p>
           </div>
-          <div class="col-4 px-3">
+          <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 px-3">
             <img class="img-fluid" src={five} alt=''/>
             <h3>Adiestramiento</h3>
             <span class="blueLine"></span>
@@ -176,25 +176,25 @@ function App() {
             Estamos aquí para ayudarlo y asegurarnos de que tenga una asistencia completa. </p>
             <p>Escríbenos por:</p>
             <ReactWhatsapp class="btn-transparent" number="+58-412-9089286" message="¡Buenos Dias! Prueba del Boton WhatsApp" >WhatsApp <FontAwesomeIcon icon={faWhatsapp} size="1x"/></ReactWhatsapp>
-            <br />  
+           
           
             <div className='row mt-5'>
-              <div className='col-4'>
+              <div className='col-lg-4 col-md-12 col-sm-12 col-xs-12'>
                 <FontAwesomeIcon icon={faPhone} size="2x"/> <br />
                 <span> <b>  02122348708 / 02122397680</b></span>
               </div>
-              <div className='col-4'>
+              <div className='col-lg-4 col-md-12 col-sm-12 col-xs-12'>
               <FontAwesomeIcon icon={faInstagram} size="2x"/> <br />
                 <a className='insta' href='https://www.instagram.com/physiontecnologianuclear/'> <b> @physiontecnologianuclear</b></a>
               </div>
-              <div className='col-4'>
+              <div className='col-lg-4 col-md-12 col-sm-12 col-xs-12'>
                <FontAwesomeIcon icon={faEnvelope} size="2x"/> <br />
                 <span> <b> physiontec@gmail.com </b></span> 
               </div>
             </div>
            
             
-            <p className='mt-3'>Av. Rómulo Gallegos, Caracas, Miranda, Venezuela</p>
+          
 
 
           </div>
@@ -203,10 +203,10 @@ function App() {
 
       <footer class="container-fluid text-center pie fade">
         <div className='row justify-content-between'>
-          <div class="col-4">
+          <div class="col-5">
             <p class="derechos">Todos los derechos reservados a <b>PHYSION TECNOLOGIA NUCLEAR C.A.</b></p>
           </div>
-          <div class="col-4">
+          <div class="col-5">
           <p class="derechos">Web Desarrollada por <b>Web Technology Software</b></p>
           </div>
         </div>
