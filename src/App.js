@@ -7,7 +7,6 @@ import two from './img/two.png'
 import three from './img/three.png'
 import four from './img/four.png'
 import five from './img/five.png'
-
 import ReactWhatsapp from 'react-whatsapp'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
@@ -113,7 +112,7 @@ function App() {
             <p>Estamos en la capacidad de realizar análisis y cálculo de blindajes para ambientes donde se utilicen equipos generadores de radiaciones ionizantes. Se realizan los cálculos tomando en cuenta la Seguridad Radiológica del área, ofreciendo distintas posibilidades y materiales para acometer el proyecto. Es importante señalar que este cálculo aparte de ser obligatorio por ley, permite optimizar la compra del material y disminuir gastos.</p>
           </div>
         </div>
-        <div class="row">
+        <div class="row justify-content-center">
           <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 px-3">
             <img class="img-fluid" src={four} alt=''/>
             <h3>Levantamiento Radiométrico</h3>
@@ -179,24 +178,19 @@ function App() {
            
           
             <div className='row mt-5'>
-              <div className='col-lg-4 col-md-12 col-sm-12 col-xs-12'>
+              <div className='col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-3'>
                 <FontAwesomeIcon icon={faPhone} size="2x"/> <br />
                 <span> <b>  02122348708 / 02122397680</b></span>
               </div>
-              <div className='col-lg-4 col-md-12 col-sm-12 col-xs-12'>
+              <div className='col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-3'>
               <FontAwesomeIcon icon={faInstagram} size="2x"/> <br />
                 <a className='insta' href='https://www.instagram.com/physiontecnologianuclear/'> <b> @physiontecnologianuclear</b></a>
               </div>
-              <div className='col-lg-4 col-md-12 col-sm-12 col-xs-12'>
+              <div className='col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-3'>
                <FontAwesomeIcon icon={faEnvelope} size="2x"/> <br />
                 <span> <b> physiontec@gmail.com </b></span> 
               </div>
             </div>
-           
-            
-          
-
-
           </div>
         </div>
       </div>
