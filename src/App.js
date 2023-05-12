@@ -17,6 +17,7 @@ import './App.css';
 
 
 function App() {
+
   return (
     <>
       <header class="container-fluid parallaHeader fade ">
@@ -60,22 +61,24 @@ function App() {
 
       <div class="container mt-3 fade">
         <div id="s1" class="row dosimetría">
-          <div class="col-7 align-self-center">
+
+          <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12 align-self-center">
             <h6 class="bluetitle">NOS ESPECIALIZAMOS EN</h6>
-            <h1> <span class="lightFont">DOSÍMETRIA POR LUMINISCENCIA</span> <br/> ÓPTICAMENTE ESTIMULADA OSL</h1>
-            <p>Es un dosímetro de vanguardia basado en tecnología OSL (luminiscencia por estimulación óptica), el cual funciona mediante la lectura de cuatro cristales de óxido de aluminio previamente irradiado por medio de luz altamente energética. Utilizamos la tecnología más moderna que existe en Venezuela y el mundo.</p>
+            <h1 className='title'> <span class="lightFont">DOSÍMETRIA POR LUMINISCENCIA</span> <br/> ÓPTICAMENTE ESTIMULADA OSL</h1>
+            <p className='title'>Es un dosímetro de vanguardia basado en tecnología OSL (luminiscencia por estimulación óptica), el cual funciona mediante la lectura de cuatro cristales de óxido de aluminio previamente irradiado por medio de luz altamente energética. Utilizamos la tecnología más moderna que existe en Venezuela y el mundo.</p>
           </div>
-          <div class="col-5">
+          <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
             <img class="img-fluid" src={microstart} alt=''/>
           </div>
+
         </div>
         <div class="row text-center mt-5">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-5">
             <h2>Dosimetría individual</h2>
             <span class="blueLine"></span>
             <p class="space">Englobamos dentro de este término la estimación de la dosis equivalente, profunda y superficial, que recibe un trabajador profesionalmente expuesto, obtenida mediante la lectura del dosímetro asignado y llevado por la persona durante toda su jornada laboral. El servicio ofrecido es mensual y los dosímetros asignados están debidamente etiquetados incluyendo tanto los datos del usuario como un código de barras único que permite la trazabilidad del mismo.</p>
           </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-5">
             <h2>Ventajas de la dosímetria OSL</h2>
             <span class="blueLine"></span>
             <p class="space">Mayor sensibilidad que los sistemas TLD y el de película. <br/>
@@ -142,7 +145,7 @@ function App() {
       </div>
 
       <div class="row parallaxBlue text-center m-0 fade">
-        <div class="col-7 mx-auto align-self-center">
+        <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12 mx-auto align-self-center">
           <h1>Prestamos servicio a nivel nacional</h1>
           <hr/>
           <p>Nuestros equipos son de última tecnología OSL,  fabricados y calibrados por LANDAUER INC. <br/>
@@ -154,10 +157,10 @@ function App() {
 
       <div class="container-fluid fade">
         <div class="row sis">
-          <div class="col-6 p-0 bgSis">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0 bgSis">
             
           </div>
-          <div class="col-6 text-center align-self-center">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center align-self-center p-5">
             <h5>Próximamente</h5>
             <span class="blueLine"></span>
             <h2>Contaremos con un sistema de control <br/> de informes automatizado para <br/>nuestros clientes</h2>
@@ -167,8 +170,8 @@ function App() {
       </div>
 
       <div id="s3" class="container-fluid parallaxFooter text-center fade">
-        <div class="row ">
-          <div class="col-7 mx-auto align-self-center">
+        <div class="row p-5">
+          <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12  mx-auto align-self-center">
             <p class="m-0">¿Hay algo específico que le gustaría saber?</p>
             <h1 class="display-1 m-0 titleFooter">Contáctanos</h1>
             <p>Si tiene alguna duda o pregunta, no dude en contactarnos. <br/>
@@ -180,7 +183,7 @@ function App() {
             <div className='row mt-5'>
               <div className='col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-3'>
                 <FontAwesomeIcon icon={faPhone} size="2x"/> <br />
-                <span> <b>  02122348708 / 02122397680</b></span>
+                <span> <b>02122397680</b></span>
               </div>
               <div className='col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-3'>
               <FontAwesomeIcon icon={faInstagram} size="2x"/> <br />

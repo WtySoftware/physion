@@ -44,17 +44,18 @@ hr {
 
 }
 .sis{
-	height: 450px;
+	min-height: 450px;
 }
 .parallaxBlue{
-	height: 350px;
+	min-height: 350px;
 	width: 100%;
+	padding: 20px;
 	font-size: 18px;
 	color: white;
 	background-color: #2F7AEB;
 }
 .parallaxFooter > .row{
- height: 550px;
+ min-height: 550px;
 }
 .btn-transparent{
 	color: white;
@@ -65,7 +66,8 @@ hr {
 	margin: 5px;
 }
 .parallaxFooter{
-	height: 600px;
+	
+	height: auto;
 	width: 100%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -108,6 +110,7 @@ hr {
 
 .titleFooter{
 	font-weight: 600;
+	text-align: center;
 }
 
 .parallaxFooter div p{
@@ -137,7 +140,7 @@ hr {
 
 }
 .bgSis{
-	
+	min-height: 350px;
 	
 	
 	background-repeat: no-repeat;
@@ -171,8 +174,24 @@ hr {
 	.wavesDer{
 		height: 200px;
 	}
+	.bluetitle{
+		text-align: center;
+	}
+	.title{
+		text-align: center;
+	}
+	.sis{
+		min-height: 500px;
+	}
  }
 
-@media (max-width: 575.98px) {  }
+@media (max-width: 575.98px) { 
+	.bluetitle{
+		text-align: center;
+	}
+	.title{
+		text-align: center;
+	}
+  }
 
 
