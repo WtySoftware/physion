@@ -174,7 +174,7 @@ function App() {
             <p>Si tiene alguna duda o pregunta, no dude en contactarnos. <br/>
             Estamos aquí para ayudarlo y asegurarnos de que tenga una asistencia completa. </p>
             <p>Escríbenos por:</p>
-            <ReactWhatsapp class="btn-transparent" number="+58-412-9089286" message="¡Buenos Dias! Prueba del Boton WhatsApp" >WhatsApp <FontAwesomeIcon icon={faWhatsapp} size="1x"/></ReactWhatsapp>
+            <ReactWhatsapp class="btn-transparent" number="+58-412-9089286" message="¡Hola!" >WhatsApp <FontAwesomeIcon icon={faWhatsapp} size="1x"/></ReactWhatsapp>
            
           
             <div className='row mt-5'>
