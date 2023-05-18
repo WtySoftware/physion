@@ -82,7 +82,7 @@ function App() {
 
           <div className="col-lg-7 col-md-6 col-sm-12 col-xs-12 align-self-center">
             <h6 className="bluetitle">NOS ESPECIALIZAMOS EN</h6>
-            <h1 className='title'> <span className="lightFont">DOSÍMETRIA POR LUMINISCENCIA</span> <br/> ÓPTICAMENTE ESTIMULADA OSL</h1>
+            <h1 className='title'> <span className="lightFont">DOSIMETRÍA POR LUMINISCENCIA</span> <br/> ÓPTICAMENTE ESTIMULADA OSL</h1>
             <p className='title'>Es un dosímetro de vanguardia basado en tecnología OSL (luminiscencia por estimulación óptica), el cual funciona mediante la lectura de cuatro cristales de óxido de aluminio previamente irradiado por medio de luz altamente energética. Utilizamos la tecnología más moderna que existe en Venezuela y el mundo.</p>
           </div>
           <div className="col-lg-5 col-md-6 col-sm-12 col-xs-12">
@@ -97,7 +97,7 @@ function App() {
             <p className="space">Englobamos dentro de este término la estimación de la dosis equivalente, profunda y superficial, que recibe un trabajador profesionalmente expuesto, obtenida mediante la lectura del dosímetro asignado y llevado por la persona durante toda su jornada laboral. El servicio ofrecido es mensual y los dosímetros asignados están debidamente etiquetados incluyendo tanto los datos del usuario como un código de barras único que permite la trazabilidad del mismo.</p>
           </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-5">
-            <h2>Ventajas de la dosímetria OSL</h2>
+            <h2>Ventajas de la dosimetría OSL</h2>
             <span className="blueLine"></span>
             <p className="space">Mayor sensibilidad que los sistemas TLD y el de película. <br/>
             La posibilidad de la re-lectura a petición del cliente o por simple verificación, es decir las dosis pueden ser leídas varias veces y el cristal no se borra, siendo imposible con el sistema TLD. <br/>
