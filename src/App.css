@@ -1,3 +1,76 @@
+.boxLogo{
+	position: relative;
+	height: 90px;
+	padding: 10px
+} 
+.ondas{
+	position: relative;
+}
+.emisor, .onda, .receptor{
+	position: relative;
+	height: 20px;
+} 
+.emisor{
+	left: 3px;
+}
+.I{
+	left: 3px;
+}
+.II{
+	left: 34px;
+}
+.III{
+	left: 35px;
+}
+.IV{
+	left: 36px;
+
+	
+}
+.V{
+	left: 37px;
+
+
+}
+.VI{
+	left: 40px;
+
+	
+}
+
+@keyframes ondas {
+	10%{
+		opacity: 1;
+	}
+	
+}
+.receptor{
+	left: 40px;
+}
+.physion{
+	position: absolute;
+	left: 0;
+	height: 40px;
+}
+.aspas{
+	z-index: -1;
+	position: absolute;
+	left: 50px;
+	bottom:-11px;
+	height: 100px;
+	animation: rote  10s infinite linear;
+}
+
+.loading{
+	height: 100px;
+	width: auto;
+	animation: rote 3s linear ;
+}
+@keyframes rote {
+	100%{
+		rotate: 360deg;
+	}
+}
 header{
 	color: white;
 }
@@ -89,6 +162,9 @@ hr {
 .pie .derechos{
 	padding: 10px;
 	margin: 0;
+}
+.derechos a{
+	color: white;
 }
 .wavesIzq{
 	position: absolute;
@@ -193,5 +269,4 @@ hr {
 		text-align: center;
 	}
   }
-
 
